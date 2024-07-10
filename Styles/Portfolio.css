@@ -1,0 +1,91 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+// <uniquifier>: Use a unique and descriptive class name
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Nav Styles */
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 75px;
+}
+
+.nav-title{
+    font-weight:700;
+    font-size: 35px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex; 
+    /* margin: 100px; */
+}
+
+.btn-primary{
+    background-color: none;
+    font-weight: semibold;
+    color: red;
+    padding: 17px 24px;
+    border-radius: 5px;
+}
+
+.banner-greetings{
+    font-size: 48px;
+    font-weight: 800;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.banner-description {
+    font-size: 16px;
+    font-weight:400;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+.banner-profile-pic{
+    width: 173.03;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.btn-secondary{
+    background-color: #0D1321;
+    font-weight: semibold;
+    color: rgb(236, 238, 237);
+    padding: 17px 24px;
+    border-radius: 10px;
+    margin: 0 35px 0  200 ;
+    
+}
+
+.center {
+    text-align: center;
+    margin: 20px 450px;
+}
+
+.header{
+    background-image: url('../images/Hero-bg.png') ;
+}
