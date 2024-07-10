@@ -78,14 +78,64 @@ nav ul{
     padding: 17px 24px;
     border-radius: 10px;
     margin: 0 35px 0  200 ;
-    
+    justify-content: space-between;
 }
 
 .center {
     text-align: center;
-    margin: 20px 450px;
+    margin: 100px 450px;
+ 
 }
 
 .header{
     background-image: url('../images/Hero-bg.png') ;
+    background-repeat: no repeat;
+    background-position: top center ;
+    
+}
+
+.section-title{
+      font-size: 32px;
+      font-weight: bold;
+      color: #0D1321;
+}
+
+.section-greetings{
+    font-size: 48px;
+    font-weight: 800;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    margin-top: 74px;
+}
+
+.section-greetings-description {
+    font-size: 16px;
+    font-weight:400;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    color:#0D1321;
+}
+
+.secondary-bg{
+    background: #FFFFFF;
+
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 74px 148px ;
+}
+
+.section1_banner{
+    display: flex;
+    width: 274.17px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
 }
